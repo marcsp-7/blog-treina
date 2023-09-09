@@ -37,7 +37,7 @@ public class Post {
     private LocalDate dataDeCriacao;
 
     @ManyToOne
-    @JoinColumn(name = "idAutor")
-    private Usuario usuario;
+    @JoinColumn(name = "idUsuario")
+    private Usuario autor;
 
 }
